@@ -3,6 +3,6 @@ flask_cors==5.0.0
 flask_mail==0.10.0
 flask_pymongo==2.3.0
 itsdangerous==2.2.0
-Jinja2==3.1.2
+Jinja2==3.1.4
 pymongo==4.8.0
 PyYAML==6.0.1
