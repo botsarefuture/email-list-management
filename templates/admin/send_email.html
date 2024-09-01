@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Email</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Include TinyMCE -->
+    <script src="https://cdn.tiny.cloud/1/uon7a71mwg96r3bst6rivkq6de4sphbnqcjckx0a10ecz56j/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: '#body',
+            plugins: 'advlist autolink lists link image charmap preview anchor searchreplace visualblocks code fullscreen insertdatetime media table paste code help wordcount',
+            toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help',
+            menubar: false
+        });
+    </script>
+</head>
+<body>
+    <h1>Send Email to List</h1>
+
+    {% with messages = get_flashed_messages(with_categories=True) %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form action="{{ url_for('admin.send_email') }}" method="POST">
+        <label for="list_id">Select List:</label>
+        <select id="list_id" name="list_id">
+            {% for list in lists %}
+                <option value="{{ list._id }}">{{ list.name }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="body">Body:</label>
+        <textarea id="body" name="body" rows="10" required></textarea>
+
+        <button type="submit">Send Email</button>
+    </form>
+</body>
+</html>

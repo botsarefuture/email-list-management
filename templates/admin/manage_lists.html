@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Lists</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Manage Lists</h1>
+    <a href="{{ url_for('admin.create_list') }}">Create New List</a>
+    <ul>
+        {% for list in lists %}
+            <li>
+                {{ list.name }} - <a href="{{ url_for('admin.edit_list', list_id=list._id) }}">Edit</a> - <a href="{{ url_for('admin.delete_list', list_id=list._id) }}" onclick="return confirm('Are you sure?');">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

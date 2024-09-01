@@ -1,0 +1,8 @@
+MONGO_URI: "mongodb://192.168.1.45:27017/user_data"
+MAIL_SERVER: "smtp.example.com"
+MAIL_PORT: 465
+MAIL_USE_TLS: false
+MAIL_USERNAME: "contact@finnactivist.org"
+MAIL_PASSWORD: "8u7!pQaW2x"
+MAIL_DEFAULT_SENDER: "no-reply@finnactivist.org"
+SECRET_KEY: "random_secret_key_123"
