@@ -1,8 +1,13 @@
+blinker==1.8.2
+click==8.1.7
+dnspython==2.6.1
 Flask==3.0.3
-flask_cors==5.0.0
-flask_mail==0.10.0
-flask_pymongo==2.3.0
+Flask-Cors==5.0.0
+Flask-Mail==0.10.0
+Flask-PyMongo==2.3.0
 itsdangerous==2.2.0
 Jinja2==3.1.4
+MarkupSafe==2.1.5
 pymongo==4.8.0
 PyYAML==6.0.1
+Werkzeug==3.0.4

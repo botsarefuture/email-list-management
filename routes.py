@@ -5,19 +5,23 @@ from email_service import EmailService
 from functions import convert_object_ids_to_strings
 
 # Initialize Blueprint
-bp = Blueprint('main', __name__)
+bp = Blueprint("main", __name__)
+
 
 # Access Flask app context for extensions
 def get_mongo():
     return current_app.mongo
 
+
 # Initialize EmailService
 def get_email_service():
     return current_app.email_service
 
+
 # Secret key for generating confirmation tokens
 def get_serializer():
     return URLSafeTimedSerializer(current_app.config.get("SECRET_KEY"))
+
 
 @bp.route("/signup", methods=["POST"])
 def signup():
@@ -41,18 +45,20 @@ def signup():
     confirmation_token = serializer.dumps({"email": email, "list_id": list_id})
 
     list_data = mongo.db.lists.find_one({"_id": ObjectId(list_id)})
-    response = email_service.send_confirmation_email(email, confirmation_token, list_data['name'])
+    response = email_service.send_confirmation_email(
+        email, confirmation_token, list_data["name"]
+    )
 
     if response[1] != 200:
         return jsonify(response[0]), response[1]
 
-    mongo.db.users.insert_one({
-        "email": email,
-        "confirmed": False,
-        "list_id": list_id
-    })
+    mongo.db.users.insert_one({"email": email, "confirmed": False, "list_id": list_id})
 
-    return jsonify({"message": "Confirmation email sent. Please check your inbox!"}), 201
+    return (
+        jsonify({"message": "Confirmation email sent. Please check your inbox!"}),
+        201,
+    )
+
 
 @bp.route("/confirm/<token>", methods=["GET"])
 def confirm_subscription(token):
@@ -75,15 +81,18 @@ def confirm_subscription(token):
     if user["confirmed"]:
         return jsonify({"message": "Email already confirmed"}), 200
 
-    mongo.db.users.update_one({"email": email, "list_id": list_id}, {"$set": {"confirmed": True}})
+    mongo.db.users.update_one(
+        {"email": email, "list_id": list_id}, {"$set": {"confirmed": True}}
+    )
 
     list_data = mongo.db.lists.find_one({"_id": ObjectId(list_id)})
-    response = email_service.send_thank_you_email(email, list_data['name'])
+    response = email_service.send_thank_you_email(email, list_data["name"])
 
     if response[1] != 200:
         return jsonify(response[0]), response[1]
 
     return jsonify({"message": "Subscription confirmed successfully!"}), 200
+
 
 @bp.route("/lists", methods=["GET", "POST", "PUT", "DELETE"])
 def manage_lists():
@@ -108,7 +117,7 @@ def manage_lists():
         new_list = {
             "name": name,
             "description": description,
-            "sender_email": sender_email
+            "sender_email": sender_email,
         }
         mongo.db.lists.insert_one(new_list)
 
@@ -124,7 +133,7 @@ def manage_lists():
         update_data = {
             "name": data.get("name"),
             "description": data.get("description"),
-            "sender_email": data.get("sender_email")
+            "sender_email": data.get("sender_email"),
         }
         update_data = {k: v for k, v in update_data.items() if v is not None}
 
@@ -132,9 +141,7 @@ def manage_lists():
             return jsonify({"error": "Missing update data"}), 400
 
         updated_list = mongo.db.lists.find_one_and_update(
-            {"_id": ObjectId(list_id)},
-            {"$set": update_data},
-            return_document=True
+            {"_id": ObjectId(list_id)}, {"$set": update_data}, return_document=True
         )
 
         if not updated_list:
@@ -157,6 +164,7 @@ def manage_lists():
 
     else:
         return jsonify({"error": "Unsupported method"}), 405
+
 
 @bp.route("/lists/<list_id>/subscribers", methods=["GET"])
 def get_subscribers(list_id):
