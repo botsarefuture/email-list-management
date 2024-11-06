@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
-    <h1>{{ title }}</h1>
-    <form method="post">
-        <label for="name">List Name:</label>
-        <input type="text" id="name" name="name" value="{{ list.name if list else '' }}" required>
-        <br>
-        <label for="description">Description:</label>
-        <textarea id="description" name="description">{{ list.description if list else '' }}</textarea>
-        <br>
-        <label for="sender_email">Sender Email:</label>
-        <input type="email" id="sender_email" name="sender_email" value="{{ list.sender_email if list else '' }}" required>
-        <br>
-        <button type="submit">Save</button>
-    </form>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="post">
+    <label for="name">List Name:</label>
+    <input type="text" id="name" name="name" value="{{ list.name if list else '' }}" required>
+    <br>
+    <label for="description">Description:</label>
+    <textarea id="description" name="description">{{ list.description if list else '' }}</textarea>
+    <br>
+    <label for="sender_email">Sender Email:</label>
+    <input type="email" id="sender_email" name="sender_email" value="{{ list.sender_email if list else '' }}" required>
+    <br>
+    <button type="submit">Save</button>
+</form>
+{% endblock %}

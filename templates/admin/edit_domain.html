@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+<form method="post">
+    <div>
+        <label for="domain">Domain Name</label>
+        <input type="text" id="domain" name="domain" value="{{ domain.domain if domain else '' }}" required>
+    </div>
+    <button type="submit">Save</button>
+</form>
+{% endblock %}

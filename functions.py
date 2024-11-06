@@ -18,3 +18,13 @@ def convert_object_ids_to_strings(data):
         return str(data)
     else:
         return data
+
+
+import hashlib
+
+def generate_txt_record(user_id):
+    # Create a unique hash from the user ID
+    user_hash = hashlib.sha256(user_id.encode()).hexdigest()
+    # Format the TXT record
+    txt_record = user_hash
+    return txt_record

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mielenterveys Kuuluu Kaikille - Join List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7fafc; /* Light background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #ffffff; /* White background for form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            background-color: #4a5568; /* Button color */
+            color: white;
+        }
+        .btn:hover {
+            background-color: #2d3748; /* Darker button color on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h1 class="text-2xl font-bold mb-4">Liity Mielenterveys kuuluu kaikille! -listalle</h1>
+    <form action="#" method="POST" id="joinListForm">
+        <div class="form-group mb-4">
+            <label for="email" class="block text-sm font-medium text-gray-700">Sähköpostiosoite:</label>
+            <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md p-2">
+        </div>
+        <button type="submit" class="btn w-full py-2 rounded">Liity listalle</button>
+    </form>
+</div>
+
+<script>document.getElementById('joinListForm').addEventListener('submit', function(event) {
+    event.preventDefault();  // Prevent the default form submission
+
+    const email = document.getElementById('email').value;
+    const list_id = "671f7eb4c96b64856be08fc2";
+    const domain = "mielenterveyskaikille.fi";  // Ensure this variable is set in your context
+
+    fetch("http://95.217.132.134:8005/signup", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email: email, list_id: list_id, domain: domain }),
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (data.error) {
+            alert(data.error);
+        } else {
+            alert(data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+});
+
+</script>
+
+</body>
+</html>

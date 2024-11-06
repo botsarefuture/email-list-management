@@ -1,0 +1,370 @@
+2024-10-28 11:15:18,480 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:15:18,481 - INFO - Initializing MongoDB client.
+2024-10-28 11:15:18,487 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:15:18,487 - INFO - Switching to database: testdb
+2024-10-28 11:15:18,487 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:15:18,487 - INFO - Using cached database connection for: testdb
+2024-10-28 11:15:35,411 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:15:35,411 - INFO - Initializing MongoDB client.
+2024-10-28 11:15:35,417 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:15:35,417 - INFO - Switching to database: testdb
+2024-10-28 11:15:35,418 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:15:35,418 - INFO - Using cached database connection for: testdb
+2024-10-28 11:16:03,136 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:16:03,136 - INFO - Initializing MongoDB client.
+2024-10-28 11:16:03,143 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:16:03,143 - INFO - Switching to database: testdb
+2024-10-28 11:16:03,143 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:16:03,143 - INFO - Using cached database connection for: testdb
+2024-10-28 11:17:03,741 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:17:03,741 - INFO - Initializing MongoDB client.
+2024-10-28 11:17:03,749 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:17:03,749 - INFO - Switching to database: testdb
+2024-10-28 11:17:03,749 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:17:03,749 - INFO - Using cached database connection for: testdb
+2024-10-28 11:17:13,615 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:17:13,616 - INFO - Initializing MongoDB client.
+2024-10-28 11:17:13,622 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:17:13,622 - INFO - Switching to database: testdb
+2024-10-28 11:17:13,622 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:17:13,622 - INFO - Using cached database connection for: testdb
+2024-10-28 11:17:37,893 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:17:37,893 - INFO - Initializing MongoDB client.
+2024-10-28 11:17:37,900 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:17:37,900 - INFO - Switching to database: testdb
+2024-10-28 11:17:37,900 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:17:37,900 - INFO - Using cached database connection for: testdb
+2024-10-28 11:19:14,355 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:19:14,355 - INFO - Initializing MongoDB client.
+2024-10-28 11:19:14,361 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:19:14,361 - INFO - Switching to database: testdb
+2024-10-28 11:19:14,361 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:19:14,361 - INFO - Using cached database connection for: testdb
+2024-10-28 11:20:14,227 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:20:14,227 - INFO - Initializing MongoDB client.
+2024-10-28 11:20:14,234 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:20:14,234 - INFO - Switching to database: testdb
+2024-10-28 11:20:14,234 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:20:14,235 - INFO - Using cached database connection for: testdb
+2024-10-28 11:20:37,915 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:20:37,915 - INFO - Initializing MongoDB client.
+2024-10-28 11:20:37,921 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:20:37,921 - INFO - Switching to database: testdb
+2024-10-28 11:20:37,921 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:20:37,921 - INFO - Using cached database connection for: testdb
+2024-10-28 11:20:51,267 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:20:51,267 - INFO - Initializing MongoDB client.
+2024-10-28 11:20:51,273 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:20:51,274 - INFO - Switching to database: testdb
+2024-10-28 11:20:51,274 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:20:51,274 - INFO - Using cached database connection for: testdb
+2024-10-28 11:20:59,466 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:20:59,466 - INFO - Initializing MongoDB client.
+2024-10-28 11:20:59,472 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:20:59,472 - INFO - Switching to database: testdb
+2024-10-28 11:20:59,472 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:20:59,472 - INFO - Using cached database connection for: testdb
+2024-10-28 11:21:21,418 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:21:21,418 - INFO - Initializing MongoDB client.
+2024-10-28 11:21:21,424 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:21:21,425 - INFO - Switching to database: testdb
+2024-10-28 11:21:21,425 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:21:21,425 - INFO - Using cached database connection for: testdb
+2024-10-28 11:21:39,472 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:21:39,472 - INFO - Initializing MongoDB client.
+2024-10-28 11:21:39,478 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:21:39,478 - INFO - Switching to database: testdb
+2024-10-28 11:21:39,478 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:21:39,478 - INFO - Using cached database connection for: testdb
+2024-10-28 11:21:56,197 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:21:56,198 - INFO - Initializing MongoDB client.
+2024-10-28 11:21:56,204 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:21:56,204 - INFO - Switching to database: testdb
+2024-10-28 11:21:56,204 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:21:56,204 - INFO - Using cached database connection for: testdb
+2024-10-28 11:22:15,861 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:22:15,861 - INFO - Initializing MongoDB client.
+2024-10-28 11:22:15,868 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:22:15,868 - INFO - Switching to database: testdb
+2024-10-28 11:22:15,868 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:22:15,868 - INFO - Using cached database connection for: testdb
+2024-10-28 11:23:01,596 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:23:01,597 - INFO - Initializing MongoDB client.
+2024-10-28 11:23:01,603 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:23:01,603 - INFO - Switching to database: testdb
+2024-10-28 11:23:01,603 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:23:01,603 - INFO - Using cached database connection for: testdb
+2024-10-28 11:23:21,569 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:23:21,569 - INFO - Initializing MongoDB client.
+2024-10-28 11:23:21,575 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:23:21,575 - INFO - Switching to database: testdb
+2024-10-28 11:23:21,575 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:23:21,576 - INFO - Using cached database connection for: testdb
+2024-10-28 11:23:40,658 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:23:40,658 - INFO - Initializing MongoDB client.
+2024-10-28 11:23:40,664 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:23:40,664 - INFO - Switching to database: testdb
+2024-10-28 11:23:40,664 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:23:40,664 - INFO - Using cached database connection for: testdb
+2024-10-28 11:23:40,683 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:23:40,726 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:25:00,864 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:25:00,864 - INFO - Initializing MongoDB client.
+2024-10-28 11:25:00,871 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:25:00,871 - INFO - Switching to database: testdb
+2024-10-28 11:25:00,871 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:25:00,871 - INFO - Using cached database connection for: testdb
+2024-10-28 11:25:00,885 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:25:00,888 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:25:03,064 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:25:03,064 - INFO - Initializing MongoDB client.
+2024-10-28 11:25:03,070 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:25:03,070 - INFO - Switching to database: testdb
+2024-10-28 11:25:03,070 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:25:03,070 - INFO - Using cached database connection for: testdb
+2024-10-28 11:25:03,085 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:25:03,087 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:25:19,630 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:25:19,631 - INFO - Initializing MongoDB client.
+2024-10-28 11:25:19,637 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:25:19,637 - INFO - Switching to database: testdb
+2024-10-28 11:25:19,637 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:25:19,637 - INFO - Using cached database connection for: testdb
+2024-10-28 11:25:19,651 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:25:19,653 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:25:38,289 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:25:38,290 - INFO - Initializing MongoDB client.
+2024-10-28 11:25:38,296 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:25:38,296 - INFO - Switching to database: testdb
+2024-10-28 11:25:38,296 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:25:38,296 - INFO - Using cached database connection for: testdb
+2024-10-28 11:25:38,311 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:25:38,313 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:25:50,932 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:25:50,932 - INFO - Initializing MongoDB client.
+2024-10-28 11:25:50,940 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:25:50,940 - INFO - Switching to database: testdb
+2024-10-28 11:25:50,940 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:25:50,940 - INFO - Using cached database connection for: testdb
+2024-10-28 11:25:50,972 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:25:50,975 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:26:06,519 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:26:06,519 - INFO - Initializing MongoDB client.
+2024-10-28 11:26:06,526 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:26:06,526 - INFO - Switching to database: testdb
+2024-10-28 11:26:06,526 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:26:06,526 - INFO - Using cached database connection for: testdb
+2024-10-28 11:26:06,545 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:26:06,548 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:26:46,188 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:26:46,188 - INFO - Initializing MongoDB client.
+2024-10-28 11:26:46,194 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:26:46,194 - INFO - Switching to database: testdb
+2024-10-28 11:26:46,195 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:26:46,195 - INFO - Using cached database connection for: testdb
+2024-10-28 11:26:46,208 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:26:46,211 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:46:19,603 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:46:19,603 - INFO - Initializing MongoDB client.
+2024-10-28 11:46:19,610 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:46:19,611 - INFO - Switching to database: testdb
+2024-10-28 11:46:19,611 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:46:19,611 - INFO - Using cached database connection for: testdb
+2024-10-28 11:46:19,645 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: The DNS response does not contain an answer to the question: luovamailist-auth.mielenterveyskaikille.fi. IN TXT
+2024-10-28 11:46:19,682 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:47:12,263 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:47:12,263 - INFO - Initializing MongoDB client.
+2024-10-28 11:47:12,269 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:47:12,269 - INFO - Switching to database: testdb
+2024-10-28 11:47:12,269 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:47:12,269 - INFO - Using cached database connection for: testdb
+2024-10-28 11:47:12,301 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: []
+2024-10-28 11:47:12,303 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:47:24,478 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:47:24,478 - INFO - Initializing MongoDB client.
+2024-10-28 11:47:24,484 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:47:24,485 - INFO - Switching to database: testdb
+2024-10-28 11:47:24,485 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:47:24,485 - INFO - Using cached database connection for: testdb
+2024-10-28 11:47:24,503 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: []
+2024-10-28 11:47:24,506 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:47:39,360 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:47:39,361 - INFO - Initializing MongoDB client.
+2024-10-28 11:47:39,367 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:47:39,367 - INFO - Switching to database: testdb
+2024-10-28 11:47:39,367 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:47:39,367 - INFO - Using cached database connection for: testdb
+2024-10-28 11:47:39,393 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: []
+2024-10-28 11:47:39,396 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:48:22,577 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:48:22,577 - INFO - Initializing MongoDB client.
+2024-10-28 11:48:22,583 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:48:22,583 - INFO - Switching to database: testdb
+2024-10-28 11:48:22,583 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:48:22,583 - INFO - Using cached database connection for: testdb
+2024-10-28 11:48:22,596 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: No active exception to reraise
+2024-10-28 11:48:22,598 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:49:39,590 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:49:39,591 - INFO - Initializing MongoDB client.
+2024-10-28 11:49:39,597 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:49:39,597 - INFO - Switching to database: testdb
+2024-10-28 11:49:39,597 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:49:39,597 - INFO - Using cached database connection for: testdb
+2024-10-28 11:49:40,046 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:49:40,048 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:50:31,161 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:50:31,161 - INFO - Initializing MongoDB client.
+2024-10-28 11:50:31,168 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:50:31,168 - INFO - Switching to database: testdb
+2024-10-28 11:50:31,168 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:50:31,168 - INFO - Using cached database connection for: testdb
+2024-10-28 11:50:31,493 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:50:31,495 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:50:44,247 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:50:44,247 - INFO - Initializing MongoDB client.
+2024-10-28 11:50:44,253 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:50:44,253 - INFO - Switching to database: testdb
+2024-10-28 11:50:44,254 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:50:44,254 - INFO - Using cached database connection for: testdb
+2024-10-28 11:50:44,353 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:50:44,355 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:51:02,758 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:51:02,758 - INFO - Initializing MongoDB client.
+2024-10-28 11:51:02,765 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:51:02,765 - INFO - Switching to database: testdb
+2024-10-28 11:51:02,766 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:51:02,766 - INFO - Using cached database connection for: testdb
+2024-10-28 11:51:02,833 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:51:02,835 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:51:24,878 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:51:24,879 - INFO - Initializing MongoDB client.
+2024-10-28 11:51:24,885 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:51:24,885 - INFO - Switching to database: testdb
+2024-10-28 11:51:24,885 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:51:24,885 - INFO - Using cached database connection for: testdb
+2024-10-28 11:51:24,970 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:51:24,972 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:52:03,484 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:52:03,484 - INFO - Initializing MongoDB client.
+2024-10-28 11:52:03,490 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:52:03,490 - INFO - Switching to database: testdb
+2024-10-28 11:52:03,491 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:52:03,491 - INFO - Using cached database connection for: testdb
+2024-10-28 11:52:03,550 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:52:03,552 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:52:19,971 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:52:19,971 - INFO - Initializing MongoDB client.
+2024-10-28 11:52:19,978 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:52:19,978 - INFO - Switching to database: testdb
+2024-10-28 11:52:19,978 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:52:19,978 - INFO - Using cached database connection for: testdb
+2024-10-28 11:52:20,012 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:52:20,014 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:52:44,906 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:52:44,906 - INFO - Initializing MongoDB client.
+2024-10-28 11:52:44,914 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:52:44,914 - INFO - Switching to database: testdb
+2024-10-28 11:52:44,914 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:52:44,914 - INFO - Using cached database connection for: testdb
+2024-10-28 11:52:44,951 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:52:44,985 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:53:14,998 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:53:14,998 - INFO - Initializing MongoDB client.
+2024-10-28 11:53:15,004 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:53:15,005 - INFO - Switching to database: testdb
+2024-10-28 11:53:15,005 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:53:15,005 - INFO - Using cached database connection for: testdb
+2024-10-28 11:53:15,089 - ERROR - Failed to check TXT records for luovamailist-auth.mielenterveyskaikille.fi: any() takes exactly one argument (2 given)
+2024-10-28 11:53:15,091 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:56:37,230 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:56:37,230 - INFO - Initializing MongoDB client.
+2024-10-28 11:56:37,236 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:56:37,237 - INFO - Switching to database: testdb
+2024-10-28 11:56:37,237 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:56:37,237 - INFO - Using cached database connection for: testdb
+2024-10-28 11:56:37,318 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:56:37,320 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:56:54,565 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:56:54,566 - INFO - Initializing MongoDB client.
+2024-10-28 11:56:54,572 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:56:54,572 - INFO - Switching to database: testdb
+2024-10-28 11:56:54,572 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:56:54,572 - INFO - Using cached database connection for: testdb
+2024-10-28 11:56:54,605 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be']
+2024-10-28 11:56:54,607 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:57:16,794 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:57:16,794 - INFO - Initializing MongoDB client.
+2024-10-28 11:57:16,801 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:57:16,801 - INFO - Switching to database: testdb
+2024-10-28 11:57:16,801 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:57:16,802 - INFO - Using cached database connection for: testdb
+2024-10-28 11:57:16,839 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 11:57:16,841 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:57:50,847 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:57:50,847 - INFO - Initializing MongoDB client.
+2024-10-28 11:57:50,853 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:57:50,853 - INFO - Switching to database: testdb
+2024-10-28 11:57:50,853 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:57:50,853 - INFO - Using cached database connection for: testdb
+2024-10-28 11:57:50,896 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 11:57:50,898 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:58:12,339 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:58:12,339 - INFO - Initializing MongoDB client.
+2024-10-28 11:58:12,345 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:58:12,345 - INFO - Switching to database: testdb
+2024-10-28 11:58:12,345 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:58:12,345 - INFO - Using cached database connection for: testdb
+2024-10-28 11:58:12,404 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 11:58:12,405 - WARNING - SPF record 'include:mailist.luova.club' is missing or incorrect for mielenterveyskaikille.fi. Found: ['"v=spf1 include:spf.luova.club -all"']
+2024-10-28 11:59:09,336 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:59:09,336 - INFO - Initializing MongoDB client.
+2024-10-28 11:59:09,342 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:59:09,343 - INFO - Switching to database: testdb
+2024-10-28 11:59:09,343 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:59:09,343 - INFO - Using cached database connection for: testdb
+2024-10-28 11:59:09,390 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 11:59:09,419 - INFO - SPF record is correctly set for mielenterveyskaikille.fi.
+2024-10-28 11:59:18,139 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:59:18,139 - INFO - Initializing MongoDB client.
+2024-10-28 11:59:18,145 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:59:18,145 - INFO - Switching to database: testdb
+2024-10-28 11:59:18,145 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:59:18,145 - INFO - Using cached database connection for: testdb
+2024-10-28 11:59:18,209 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 11:59:18,210 - INFO - SPF record is correctly set for mielenterveyskaikille.fi.
+2024-10-28 11:59:55,496 - INFO - Initializing DatabaseManager instance.
+2024-10-28 11:59:55,496 - INFO - Initializing MongoDB client.
+2024-10-28 11:59:55,502 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 11:59:55,502 - INFO - Switching to database: testdb
+2024-10-28 11:59:55,502 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 11:59:55,502 - INFO - Using cached database connection for: testdb
+2024-10-28 11:59:55,552 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 11:59:55,553 - INFO - SPF record is correctly set for mielenterveyskaikille.fi.
+2024-10-28 12:00:10,521 - INFO - Initializing DatabaseManager instance.
+2024-10-28 12:00:10,521 - INFO - Initializing MongoDB client.
+2024-10-28 12:00:10,528 - INFO - Connected to MongoDB at URI: mongodb://localhost:27017
+2024-10-28 12:00:10,528 - INFO - Switching to database: testdb
+2024-10-28 12:00:10,528 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 12:00:10,528 - INFO - Using cached database connection for: testdb
+2024-10-28 12:00:10,590 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 12:00:10,592 - INFO - SPF record is correctly set for mielenterveyskaikille.fi.
+2024-10-28 12:02:02,250 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 12:02:02,250 - INFO - Using cached database connection for: testdb
+2024-10-28 12:02:02,255 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 12:02:02,255 - INFO - Using cached database connection for: testdb
+2024-10-28 12:02:02,301 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 12:02:02,302 - INFO - SPF record is correctly set for mielenterveyskaikille.fi.
+2024-10-28 12:02:02,304 - INFO - Domain 'mielenterveyskaikille.fi' confirmed successfully.
+2024-10-28 12:02:24,757 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 12:02:24,757 - INFO - Using cached database connection for: testdb
+2024-10-28 12:02:24,760 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 12:02:24,760 - INFO - Using cached database connection for: testdb
+2024-10-28 12:02:24,840 - INFO - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is correctly set for luovamailist-auth.mielenterveyskaikille.fi.
+2024-10-28 12:02:24,842 - INFO - SPF record is correctly set for mielenterveyskaikille.fi.
+2024-10-28 12:02:24,844 - INFO - Domain 'mielenterveyskaikille.fi' confirmed successfully.
+2024-10-28 15:51:59,243 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 15:51:59,243 - INFO - Using cached database connection for: testdb
+2024-10-28 15:51:59,247 - WARNING - DatabaseManager instance already initialized. Returning existing instance.
+2024-10-28 15:51:59,248 - INFO - Using cached database connection for: testdb
+2024-10-28 15:51:59,285 - WARNING - TXT record '5fb2d18b730e91fbd0ad849143c4a4a6040ab4308c03e4c38c20d77810fbe5be' is missing or incorrect for luovamailist-auth.mielenterveyskaikille.fi. Found: ['0cb8c2dd13520adf9f55c71673f58850d0b6ef83af4f676b43d2517886ed185d']
+2024-10-28 15:51:59,300 - INFO - SPF record is correctly set for mielenterveyskaikille.fi.
